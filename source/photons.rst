@@ -56,8 +56,8 @@ angular frequency :math:`\omega`, it will tend to induce transitions between sta
 :math:`\hbar \omega` apart.  The derivation uses a completely classical treatment of the perturbation.  In the case of
 the photoelectric effect, the electrons in the material are described with quantum mechanics, but the radiation is
 described as a classical field.  Radiation of frequency :math:`\omega` will tend to be absorbed in units of
-:math:`\hbar \omega` because those are the energy levels it stimulates transitions between.  One need not assume
-anything about the field being quantized.
+:math:`\hbar \omega` because those are the transitions it stimulates.  One need not assume anything about the field
+being quantized.
 
 The photoelectric effect is the first in a long line of phenomena that have been widely cited as evidence for the
 electromagnetic field being quantized, only to later be shown to be entirely consistent with a classical field.

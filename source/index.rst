@@ -17,6 +17,8 @@ How To Be Less Confused About Quantum Mechanics
    collapse.rst
    fermions.rst
    photons.rst
+   interpretations.rst
+   entanglement.rst
 
 
 Indices and tables
