@@ -15,6 +15,7 @@ How To Be Less Confused About Quantum Mechanics
    formulations.rst
    postulates.rst
    collapse.rst
+   uncertainty.rst
    fermions.rst
    photons.rst
    interpretations.rst
