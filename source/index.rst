@@ -20,6 +20,7 @@ How To Be Less Confused About Quantum Mechanics
    photons.rst
    interpretations.rst
    entanglement.rst
+   retrocausality.rst
 
 
 Indices and tables
