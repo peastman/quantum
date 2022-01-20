@@ -24,9 +24,9 @@ quantum mechanics in general.  In the phase space formulation, it is entirely re
 a particle has a specific position and a specific momentum, both at the same time, and it gives you a well defined
 answer.
 
-The two state vector formulation actually has two wavefunction-like objects, one that evolves forward in time
+The two-state vector formulation actually has two wavefunction-like objects, one that evolves forward in time
 and another that evolves backward in time.  The role played by these objects is very different from the familiar
-wavefunction, however, because they do not represent probability distributions.  The two state vector formulation is
+wavefunction, however, because they do not represent probability distributions.  The two-state vector formulation is
 entirely deterministic.  Given the values of the two state vectors, the result of any measurement is uniquely determined.
 
 Since many sets of postulates all lead to identical predictions, and some of them do not involve a wavefunction, we

@@ -17,7 +17,7 @@ are not strictly necessary and can be derived from the others.  The following is
 
 There is no physics in these two postulates.  They just establish a mathematical vocabulary.  Taken on their own, they
 mean nothing and predict nothing.  So if you have trouble understanding what it means for a Hermitian operator to
-represent a measurable quantity like position or momentum, that is because there is nothing to understand.  The physics
+represent a measurable quantity like position or momentum, that is because there is nothing to understand!  The physics
 comes in the next two postulates.
 
 .. admonition:: Postulate 3 (the Schrödinger equation)
@@ -64,7 +64,7 @@ Is the wavefunction nothing more than a trick for bundling a joint probability d
 a single object?  We do not know, but it is entirely possible.
 
 Notice that the postulates make no mention of spin.  In this, I am following convention.  Usually they are first stated
-without spin, and then it is awkwardly bolted on later.  When using the Dirac equation to incorporate relativity, it
+without spin, and then it is awkwardly bolted on later.  When using the Dirac equation to incorporate relativity, spin
 emerges in a much more natural way.  Do not think that means it "explains" spin, however.  It seems likely that spin is
 in some way related to relativity, but it is still a mysterious property whose nature is not understood.  For the
 moment, I will just acknowledge that we must include spin if we want to correctly predict experiments, and leave it at

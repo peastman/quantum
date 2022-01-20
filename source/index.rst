@@ -21,6 +21,7 @@ How To Be Less Confused About Quantum Mechanics
    interpretations.rst
    entanglement.rst
    retrocausality.rst
+   sed.rst
 
 
 Indices and tables

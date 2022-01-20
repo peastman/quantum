@@ -26,7 +26,7 @@ that Einstein famously ridiculed as "spooky action at a distance."
 Is this a real physical difference, or only a semantic one?  Are these just two equivalent ways of describing the same
 thing, or can one experimentally distinguish between them?
 
-In 1964, John Bell proposed a variation on this experiment.  In his version, each of the two measuring devices can be
+In 1964, John Bell proposed a variation on this experiment. [#f1]_  In his version, each of the two measuring devices can be
 configured to measure spin along multiple axes.  The experiment is repeated many times, each time randomly selecting one
 of the possible axes for each device.  Under an assumption he considered to be reasonable for most hidden variable
 theories, he showed the results must satisfy a particular inequality.  On the other hand, the predictions of quantum
@@ -231,7 +231,7 @@ each window.
 Authors have recently shown how this process can introduce spurious correlations that were not present in the raw data
 and that violate Bell's inequality.  In fact, it has been experimentally demonstrated that when the two detectors
 receive particles from completely independent, uncorrelated sources, the standard analysis concludes that Bell's
-inequality is strongly violated.  Of course, this has nothing to do with entanglement.  It is simply measuring the
+inequality is strongly violated. [#f2]_  Of course, this has nothing to do with entanglement.  It is simply measuring the
 probability of two detections randomly occurring close together.
 
 To their credit, experimenters have worked hard to try to address these problems, and they have made good progress on some of
@@ -245,4 +245,13 @@ And of course, it is critical to remember that this whole approach of trying to 
 mathematically rigorous.  At best it is a way of trying to build intuition, and intuition can be misleading.  The only
 truly rigorous derivation of Bell's inequality begins from an assumption about probability distributions.  If we are not
 willing to accept that assumption as self-evident on its own merits, then all our conclusions must be viewed as
-provisional.  It cannot be derived from anything else.  No amount of clever experimental design can change that.
+provisional.  It cannot be derived from anything else.  No amount of clever experimental design can change that.  Even
+the question of whether it is possible to write a probability distribution, or how to define what that probability
+distribution means, turns out to involve a series of subtle, hard to justify assumptions.  I will touch on a few of
+these issues in the next chapter.
+
+----
+
+.. [#f1] J.S. Bell.  "On The Einstein Podolsky Rosen Paradox."  Physics 1(3): 195-200 (1964).
+.. [#f2] M. Iannuzzi, R. Francini, R. Messi, D. Moricciani.  "Bell-type polarization experiment with pairs of
+         uncorrelated optical photons."  Physics Letters A 384(9): 126200 (2020).

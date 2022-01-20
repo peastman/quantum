@@ -69,8 +69,8 @@ poorly defined way).  This is presented as somehow being a rigorous proof.
 
 I must be careful here, because I do not want to give the impression that the Pauli exclusion principle "does not exist",
 or is nothing more than Coulomb repulsion.  Dyson famously showed that atoms are much larger than would be expected
-based on a simple Coulomb interaction.  Requiring the wavefunction to be antisymmetric leads to an effective "exchange
-interaction" at short ranges that keeps the electrons further apart.
+based on a simple Coulomb interaction. [#f1]_  Requiring the wavefunction to be antisymmetric leads to an effective
+"exchange interaction" at short ranges that keeps the electrons further apart.
 
 But the physical origin of this effect is still unknown.  What is the actual connection between the exclusion principle
 and interactions between identical particles?  That is hard to say.  It certainly is noteworthy that all known fermions
@@ -114,7 +114,7 @@ cannot in any way be written as a product of single-particle wavefunctions, with
 Therefore it is meaningless to talk about a single electron within an atom having its own independent "quantum state".
 
 This confusion dates back to Pauli's original formulation of the exclusion principle, which stated that two electrons in
-an atom could not have the same "quantum numbers".  We cannot really fault him for this: he introduced it in 1925,
+an atom could not have the same "quantum numbers". [#f2]_  We cannot really fault him for this: he introduced it in 1925,
 before the idea of a wavefunction had yet been developed.  It is our own fault if we keep using obsolete descriptions
 long after they are replaced by more modern ones!
 
@@ -147,9 +147,19 @@ up to a point.  If you cool a gas of identical atoms with integral spin to near 
 a transition that matches the predictions for bosons.
 
 But it also provides a clear illustration of the limits of this description.  In their original papers on the subject,
-Bose and Einstein explicitly assumed the atoms did not interact.  The theory has since been extended to account for
-interactions, but only weak ones.  In practice, all experiments on Bose-Einstein condensates involve dilute gases in
+Bose and Einstein explicitly assumed the atoms did not interact. [#f3]_ [#f4]_  The theory has since been extended to account
+for interactions, but only weak ones.  In practice, all experiments on Bose-Einstein condensates involve dilute gases in
 which the atoms are far apart and interactions are minimized.  If they are allowed to come too close together and
 interact too strongly, it is no longer valid to describe them as independent bosons.  But the ability to closely
 approach each other is supposed to be one of the core features that distinguishes bosons from fermions.  The description
 breaks down exactly when it is most important!  If you take it too literally, it will mislead you and produce confusion.
+
+----
+
+.. [#f1] Dyson, F. J.  "Ground-State Energy of a Finite System of Charged Particles."  Journal of Mathematical Physics
+   8(8): 1538-1545 (1967).
+.. [#f2] Pauli, W.  "Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der
+   Spektren."  Zeitschrift für Physik 31: 765-783 (1925).
+.. [#f3] Bose, S. N.  "Plancks Gesetz und Lichtquantenhypothese."  Zeitschrift für Physik 26: 178-181 (1924).
+.. [#f4] Einstein, A.  "Quantentheorie des einatomigen idealen Gases."  Sitzungsberichte der Preussischen Akademie der
+   Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).

@@ -48,7 +48,7 @@ predicted nothing and could hardly even be said to explain anything.
 
 Although fewer people take the Copenhagen Interpretation seriously today, there are modern interpretations that share
 aspects of it and can perhaps be viewed as its spiritual successors.  Probably the most prominent of these is the Many
-Worlds Interpretation, first proposed by Hugh Everett in 1957.  It begins by assuming the wavefunction is a real
+Worlds Interpretation, first proposed by Hugh Everett in 1957. [#f1]_  It begins by assuming the wavefunction is a real
 physical object.  It further assumes the wavefunction to be the *only* physical object.  There are no hidden variables
 in this interpretation.
 
@@ -66,14 +66,14 @@ which leads to correct results for both microscopic and macroscopic systems.
 
 The Stochastic Interpretation, as originally proposed, was also not really a theory, just a vague idea.  One of the
 first serious efforts at a complete theory based on it was pilot wave theory, developed in 1952 by David Bohm based on
-an earlier idea by Louis de Broglie.  This theory starts by treating particles as classical point-like objects obeying
+an earlier idea by Louis de Broglie. [#f2]_ This theory starts by treating particles as classical point-like objects obeying
 classical mechanics.  It then adds in the quantum mechanical wavefunction, but interprets it in a completely new way.
 According to pilot wave theory, the wavefunction generates a potential function called the "quantum potential", which
 exerts forces on the particles; that is, it acts as a pilot to steer the particles.  The positions and momenta of the
 classical particles are hidden variables.  They are influenced by the wavefunction but cannot be exactly determined.
 
-Another influential theory was Stochastic Mechanics, proposed by Edward Nelson in 1966.  Like Bohm, Nelson began with
-classical particles obeying Newtonian mechanics.  In place of the complicated and seemingly arbitrary "quantum
+Another influential theory was Stochastic Mechanics, proposed by Edward Nelson in 1966. [#f3]_ Like Bohm, Nelson began
+with classical particles obeying Newtonian mechanics.  In place of the complicated and seemingly arbitrary "quantum
 potential", Nelson made a much simpler assumption: that all particles are subject to rapidly fluctuating stochastic
 forces that he modeled as uncorrelated white noise.  Remarkably, this simple classical model leads directly to the
 Schrödinger equation and the Born rule, and thus to all the quantum phenomena that follow from them: tunneling, the
@@ -100,3 +100,11 @@ You may have heard that all hidden variable theories have been experimentally di
 in the popular press, and more unfortunately, in the scientific literature as well.  It is entirely false.  Sometimes
 it is stated in a more nuanced way: that local, realistic hidden variable theories have been disproven.  This version of
 the claim is also entirely false.  The truth behind this common misunderstanding is the subject of the next chapter.
+
+----
+
+.. [#f1] Everett, H.  "Relative State Formulation of Quantum Mechanics."  Reviews of Modern Physics 29(3): 454-462 (1957).
+.. [#f2] Bohm, D.  "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables. I."  Physical Review
+   85(2): 166-179 (1952).
+.. [#f3] Nelson, E.  "Derivation of the Schrödinger Equation from Newtonian Mechanics."  Physical Review 150(4): 1079-1085
+   (1966).

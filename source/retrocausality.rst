@@ -48,7 +48,7 @@ But of course, we do talk about probabilities even when dealing with determinist
 sense in which the question means something.  When we do this, we are invoking the formalism of statistical mechanics.
 We start by choosing a statistical ensemble, a set of microstates for the system that are all consistent with our
 macroscopic knowledge about it.  We then invoke the postulate of equal *a priori* probabilities, which assumes that
-every microstate in the ensemble is equally probable.  Here is what we really mean what we talk about the "probability"
+every microstate in the ensemble is equally probable.  Here is what we really mean when we talk about the "probability"
 that something is true: "For what fraction of the members of some specified statistical ensemble is it true?"
 
 The answer to this question depends on your choice of ensemble.  Often, it is not obvious which is the "right" one to

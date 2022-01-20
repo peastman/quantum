@@ -1,7 +1,7 @@
 The Uncertainty Principle
 =========================
 
-Heisenberg introduced his famous uncertainty principle in 1927.  He based it on the following argument.
+Heisenberg introduced his famous uncertainty principle in 1927. [#f1]_  He based it on the following argument.
 
 Suppose you want to measure the position of a particle.  You might do it, for example, by shining light on it and
 detecting the reflected light.  This experiment, like all real world experiments, has limited precision.  It can only
@@ -74,7 +74,7 @@ between the two measurements.
 
 Having determined the momentum through our two measurements, we might be tempted to extrapolate to earlier and later
 times.  At this point we run into the uncertainty principle again.  Each of the measurements alters the momentum in an
-unknown way.  We know the momentum before the first measurement is different from :math:`x/t`, and after the second
+unknown way.  We know the velocity before the first measurement is different from :math:`x/t`, and after the second
 measurement it is different again, but we do not know the exact values.  The more precisely we perform the position
 measurements, the more uncertain the momentum becomes.
 
@@ -126,3 +126,8 @@ violate conservation of energy by an amount :math:`\Delta E`, as long as you onl
 :math:`\left\langle \Psi | H | \Psi \right\rangle` is conserved by the Schrödinger equation.  That is what conservation
 of energy means in quantum mechanics.  It is an exact law.  It cannot be violated by even the smallest amount, no matter
 how short a time you do it for!
+
+----
+
+.. [#f1] Heisenberg, W.  "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik."  Zeitschrift für
+   Physik 43: 172-198 (1927).

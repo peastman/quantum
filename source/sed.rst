@@ -127,11 +127,11 @@ Perhaps stochastic electrodynamics would eventually have been abandoned.  Perhap
 that truly could not be explained by any classical theory.  Perhaps that will still happen.  But it has not happened
 yet.
 
-.. rubric:: Footnotes
+----
 
 .. [#f1] de la Peña, L., Cetto, A. M., Hernández, A. V.  "The Emerging Quantum: The Physics Behind Quantum Mechanics."
    Springer International Publishing (2015).
 .. [#f2] Schrödinger, E.  "Über die kräftefreie Bewegung in der relativistischen Quantenmechanik."  Sitzungsberichte der
    Preussischen Akademie der Wissenschaften: Physikalisch-Mathematische Klasse 24: 418-428 (1930).
 .. [#f3] Hestenes, D.  "The Zitterbewegung Interpretation of Quantum Mechanics."  Foundations of Physics 20: 1213–1232
-   (1990)
+   (1990).

@@ -46,9 +46,9 @@ energy in some form to make up the difference.  Often that takes the form of ele
 the radiation absorbed or emitted in this process to conserve energy.
 
 This definition is the one relevant to the photoelectric effect.  Einstein showed that he could correctly predict
-experiment if he assumed a photoelectric material always absorbs light in units of :math:`\hbar \omega`.  He postulated
-that this was due to a fundamental property of the electromagnetic field: that radiation is made up of discrete "light
-quanta".  (The word "photon" was not introduced until many years later.)
+experiment if he assumed a photoelectric material always absorbs light in units of :math:`\hbar \omega`. [#f1]_  He
+postulated that this was due to a fundamental property of the electromagnetic field: that radiation is made up of
+discrete "light quanta".  (The word "photon" was not introduced until many years later.)
 
 We no longer need to make that assumption.  Quantum mechanics gives a completely different explanation.  One can easily
 show that if a system is subject to an oscillating perturbation (for example, an external electromagnetic field) of
@@ -74,3 +74,8 @@ not supported, what everyone "knew" to be true, it would have received a much mo
 There is an important lesson here.  As scientists and as rationalists, we all must be constantly vigilant against
 confirmation bias.  When a new argument supports our beliefs, that is when we must be most on our guard.  We must not
 relax our standards for rigor just because it produces what we think is the correct result.
+
+----
+
+.. [#f1] Einstein, A.  "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt."
+   Annalen der Physik 17(6): 132-148 (1905).
