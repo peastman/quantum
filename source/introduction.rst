@@ -1,5 +1,11 @@
-Preface
-=======
+Introduction
+============
+
+.. epigraph::
+
+   *"Your strength as a rationalist is your ability to be more confused by fiction than by reality."*
+
+   -- *Eliezer Yudkowsky, "Harry Potter and the Methods of Rationality"*
 
 This is a book for physicists and students of physics.  It does not try to teach you quantum mechanics.  I assume you
 have already studied it, or perhaps you are currently taking your first course on the subject.  I also assume you are

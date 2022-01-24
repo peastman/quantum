@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'How To Be Less Confused About Quantum Mechanics'
-copyright = '2021, Peter Eastman'
+copyright = '2022, Peter Eastman'
 author = 'Peter Eastman'
 
 

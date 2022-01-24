@@ -10,7 +10,7 @@ How To Be Less Confused About Quantum Mechanics
    :maxdepth: 2
    :caption: Contents:
 
-   preface.rst
+   introduction.rst
    phenomenological.rst
    formulations.rst
    postulates.rst
@@ -22,6 +22,7 @@ How To Be Less Confused About Quantum Mechanics
    entanglement.rst
    retrocausality.rst
    sed.rst
+   conclusion.rst
 
 
 Indices and tables
