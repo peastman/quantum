@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>The Postulates of Quantum Mechanics &#8212; How To Be Less Confused About Quantum Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pyramid.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Collapse of the Wavefunction" href="collapse.html" />
+    <link rel="prev" title="Formulations of Quantum Mechanics" href="formulations.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="collapse.html" title="The Collapse of the Wavefunction"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="formulations.html" title="Formulations of Quantum Mechanics"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The Postulates of Quantum Mechanics</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="the-postulates-of-quantum-mechanics">
+<h1>The Postulates of Quantum Mechanics<a class="headerlink" href="#the-postulates-of-quantum-mechanics" title="Permalink to this headline">¶</a></h1>
+<p>In this chapter I will review the postulates of quantum mechanics as they appear in the familiar Schrödinger
+formulation.  The exact way they are stated varies between sources.  Some sources include one or two postulates that
+are not strictly necessary and can be derived from the others.  The following is a fairly typical version.</p>
+<div class="admonition-postulate-1 admonition">
+<p class="admonition-title">Postulate 1</p>
+<p>The state of an isolated physical system at a single point in time is described by a complex valued wavefunction
+<span class="math notranslate nohighlight">\(\Psi(\mathbf{r}_1, \mathbf{r}_2, ...)\)</span>, where <span class="math notranslate nohighlight">\(\mathbf{r}_1\)</span>, <span class="math notranslate nohighlight">\(\mathbf{r}_2\)</span>, etc. are the
+positions of the particles that make up the system.</p>
+</div>
+<div class="admonition-postulate-2 admonition">
+<p class="admonition-title">Postulate 2</p>
+<p>For every measurable quantity, there is a Hermitian operator that acts on the space of wavefunctions.</p>
+</div>
+<p>There is no physics in these two postulates.  They just establish a mathematical vocabulary.  Taken on their own, they
+mean nothing and predict nothing.  So if you have trouble understanding what it means for a Hermitian operator to
+represent a measurable quantity like position or momentum, that is because there is nothing to understand!  The physics
+comes in the next two postulates.</p>
+<div class="admonition-postulate-3-the-schrodinger-equation admonition">
+<p class="admonition-title">Postulate 3 (the Schrödinger equation)</p>
+<p>The wavefunction evolves with time according to the Schrödinger equation:</p>
+<div class="math notranslate nohighlight">
+\[i \hbar \frac{d \Psi}{dt} = H \Psi\]</div>
+<p>where <span class="math notranslate nohighlight">\(H\)</span> is the Hamiltonian operator.</p>
+</div>
+<p>Strictly speaking this is incorrect, since the Schrödinger equation is not Lorentz invariant.  When relativity is
+important, we must instead use the Dirac equation or the Klein-Gordon equation.  For many purposes, the non-relativistic
+version is sufficient.</p>
+<p>The final postulate, known as the Born rule, describes what happens when we perform measurements.  It is the source of
+much of the confusion that surrounds quantum mechanics.</p>
+<div class="admonition-postulate-4-the-born-rule admonition">
+<p class="admonition-title">Postulate 4 (the Born rule)</p>
+<p>When you perform a measurement of the quantity corresponding to an operator <span class="math notranslate nohighlight">\(\Omega\)</span>, the result will always
+be one of the eigenvalues of the operator.  The probability of measuring a particular eigenvalue <span class="math notranslate nohighlight">\(\omega\)</span> is
+equal to <span class="math notranslate nohighlight">\(| \left\langle \omega | \Psi \right\rangle |^2\)</span> where <span class="math notranslate nohighlight">\(\left| \omega \right\rangle\)</span> is the
+corresponding eigenvector and <span class="math notranslate nohighlight">\(\left| \Psi \right\rangle\)</span> is the current value of the wavefunction.</p>
+</div>
+<p>Let’s start with the first postulate.  What does it mean to describe the state of a system with a wavefunction?  It is very
+confusing when we first meet it, because it is so different from what we are used to.  In classical mechanics, the state
+of a system is fully specified by the position and momentum of each particle it contains.  For <span class="math notranslate nohighlight">\(N\)</span> particles in
+three dimensions, it is specified by <span class="math notranslate nohighlight">\(6N\)</span> numbers.  In contrast, the wavefunction is specified by two numbers
+(because it is complex) for <em>every point in a</em> <span class="math notranslate nohighlight">\(3N\)</span> <em>dimensional space</em>.  That is a vastly larger amount of
+information.  In fact, if we do not discretize the particle positions, it is infinite.</p>
+<p>Perhaps it is only confusing because we are comparing apples to oranges.  Classical mechanics is usually applied to
+macroscopic objects whose positions and momenta can be measured to high accuracy.  In that case, it makes sense to treat
+them as precisely, simultaneously knowable.  Quantum mechanics is usually applied to atoms and electrons which we cannot
+precisely measure or control.  We have no device that can determine the exact position of every electron in an
+atom.  Since we cannot know them, it makes more sense to talk about their joint probability distribution
+<span class="math notranslate nohighlight">\(P(\mathbf{r}_1, \mathbf{r}_2, ...)\)</span>.  If we want to predict the distribution’s time evolution, we also need the
+derivative <span class="math notranslate nohighlight">\(dP/dt\)</span>.  Together they contain two numbers for every point in a <span class="math notranslate nohighlight">\(3N\)</span> dimensional space, exactly
+the same as the wavefunction.</p>
+<p>Is the wavefunction nothing more than a trick for bundling a joint probability distribution and its time derivative into
+a single object?  We do not know, but it is entirely possible.</p>
+<p>Notice that the postulates make no mention of spin.  In this, I am following convention.  Usually they are first stated
+without spin, and then it is awkwardly bolted on later.  When using the Dirac equation to incorporate relativity, spin
+emerges in a much more natural way.  Do not think that means it “explains” spin, however.  It seems likely that spin is
+in some way related to relativity, but it is still a mysterious property whose nature is not understood.  For the
+moment, I will just acknowledge that we must include spin if we want to correctly predict experiments, and leave it at
+that.</p>
+<p>Now let’s consider the Born rule.  It is a simple rule, but also seems completely arbitrary.  Why should measurements
+happen to follow this particular rule?  For that matter, what does it even mean to “perform a measurement”?  These
+questions have been debated endlessly for the last century.  I will have much more to say about them in later chapters,
+but for the moment let me just repeat what I said before: quantum mechanics is nothing more than a set of rules for
+predicting experiments.  They have no justification beyond the fact that they work.  If we want more, we will need to
+look for a deeper theory.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="formulations.html"
+                        title="previous chapter">Formulations of Quantum Mechanics</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="collapse.html"
+                        title="next chapter">The Collapse of the Wavefunction</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/postulates.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="collapse.html" title="The Collapse of the Wavefunction"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="formulations.html" title="Formulations of Quantum Mechanics"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The Postulates of Quantum Mechanics</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Peter Eastman.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    </div>
+  </body>
+</html>

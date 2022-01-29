@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>The Collapse of the Wavefunction &#8212; How To Be Less Confused About Quantum Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pyramid.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Uncertainty Principle" href="uncertainty.html" />
+    <link rel="prev" title="The Postulates of Quantum Mechanics" href="postulates.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="uncertainty.html" title="The Uncertainty Principle"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="postulates.html" title="The Postulates of Quantum Mechanics"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The Collapse of the Wavefunction</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="the-collapse-of-the-wavefunction">
+<h1>The Collapse of the Wavefunction<a class="headerlink" href="#the-collapse-of-the-wavefunction" title="Permalink to this headline">¶</a></h1>
+<p>Many sources include an additional postulate that I have omitted.</p>
+<div class="admonition-postulate-5 admonition">
+<p class="admonition-title">Postulate 5</p>
+<p>When you perform a measurement of the quantity corresponding to an operator <span class="math notranslate nohighlight">\(\Omega\)</span> and obtain the eigenvalue
+<span class="math notranslate nohighlight">\(\omega\)</span> as a result, immediately after the measurement the wavefunction is given by
+<span class="math notranslate nohighlight">\(\left| \Psi \right\rangle = \left| \omega \right\rangle\)</span>, where <span class="math notranslate nohighlight">\(\left| \omega \right\rangle\)</span> is the
+corresponding eigenvector.</p>
+</div>
+<p>The wavefunction is said to “collapse” from a superposition of many eigenstates down to a single eigenstate.  Originally
+this postulate was believed to be necessary to reproduce experiment, and many sources still include it.  It was (and
+continues to be) the source of much confusion, such as the idea of a “quantum leap” in which a particle was imagined to
+jump discontinuously from one position to another without ever passing through the space in between.</p>
+<p>We now understand this postulate is not needed.  We can explain the relevant experiments using only the other
+postulates.  The inventors of quantum mechanics thought they needed it because they did not include a proper description
+of the measuring device in their theory.  They insisted on treating the measuring device classically, using quantum
+mechanics only for the system being measured.  When you unify them, treating the measuring device and measured object as
+parts of a single combined system that follows a single set of rules, the phenomenon traditionally described as
+“collapse” appears naturally.</p>
+<p>We can see this with a simple example.  Suppose an operator has two eigenvectors <span class="math notranslate nohighlight">\(\left| A \right\rangle\)</span> and
+<span class="math notranslate nohighlight">\(\left| B \right\rangle\)</span>.  Suppose the wavefunction is initially a superposition of the two.</p>
+<div class="math notranslate nohighlight">
+\[\left| \Psi \right\rangle = c_a \left| A \right\rangle + c_b \left| B \right\rangle\]</div>
+<p>By applying the Born rule, we can compute the probability that a measurement will yield either <span class="math notranslate nohighlight">\(a\)</span> or <span class="math notranslate nohighlight">\(b\)</span>.
+Recall that <span class="math notranslate nohighlight">\(\left| A \right\rangle\)</span> and <span class="math notranslate nohighlight">\(\left| B \right\rangle\)</span> are eigenvectors of the same operator.
+This requires them to be orthonormal, so <span class="math notranslate nohighlight">\(\left\langle A | A \right\rangle = \left\langle B | B \right\rangle = 1\)</span>
+and <span class="math notranslate nohighlight">\(\left\langle A | B \right\rangle = 0\)</span>.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}P(a) &amp;= | \left\langle A | \Psi \right\rangle |^2 \\
+     &amp;= | c_a \left\langle A | A \right\rangle + c_b \left\langle A | B \right\rangle |^2 \\
+     &amp;= | c_a \cdot 1 + c_b \cdot 0 |^2 \\
+     &amp;= | c_a |^2\end{split}\]</div>
+<p>and similarly</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}P(b) &amp;= | c_a \left\langle B | A \right\rangle + c_b \left\langle B | B \right\rangle |^2 \\
+     &amp;= | c_b |^2\end{split}\]</div>
+<p>This is the traditional approach, in which we describe only the system being measured and ignore everything outside it.
+Now let’s expand the state space to include both.  Let <span class="math notranslate nohighlight">\(\left| E \right\rangle\)</span> represent the state of the
+environment, which includes everything that will be influenced by the measurement: the measuring device, any recording
+device the result will be written to, even a person who will look at the result.  The state of the extended system is
+<span class="math notranslate nohighlight">\(\left| \Psi \right\rangle \otimes \left| E \right\rangle\)</span>.</p>
+<p>Now we perform a measurement.  What does that mean?  Simply that we allow the measuring device and measured object to
+interact with each other.  The measuring device is modified by the interaction, such that we can later look at the
+measuring device and, based on its state, learn something about the object it measured.  In other words, the state of
+the environment becomes correlated with the state of the object.  The combined wavefunction is now</p>
+<div class="math notranslate nohighlight">
+\[\left| \Psi \right\rangle = c_a \left| A \right\rangle \otimes \left| E_a \right\rangle + c_b \left| B \right\rangle \otimes \left| E_b \right\rangle\]</div>
+<p>Next we can perform a second measurement.  We will again determine the state of the object, but we will also look at the
+device used in the first measurement to learn what its result was.  This will tell us whether the two measurements
+produced the same result or different results.</p>
+<p>This time we will just use the Born rule.  The probability that both measurements produced <span class="math notranslate nohighlight">\(a\)</span> is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}P(a, E_a) &amp;= | c_a \left\langle A | A \right\rangle \left\langle E_a | E_a \right\rangle + c_b \left\langle A | B \right\rangle \left\langle E_a | E_b \right\rangle |^2 \\
+          &amp;= | c_a |^2\end{split}\]</div>
+<p>and similarly</p>
+<div class="math notranslate nohighlight">
+\[P(b, E_b) = | c_b |^2\]</div>
+<p>But now we can also look at cross terms.  What is the probability that the first measurement produced <span class="math notranslate nohighlight">\(a\)</span> and the
+second one produced <span class="math notranslate nohighlight">\(b\)</span>?</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}P(b, E_a) &amp;= | c_a \left\langle B | A \right\rangle \left\langle E_a | E_a \right\rangle + c_b \left\langle B | B \right\rangle \left\langle E_a | E_b \right\rangle |^2 \\
+          &amp;= | c_b \left\langle E_a | E_b \right\rangle |^2\end{split}\]</div>
+<p>What does <span class="math notranslate nohighlight">\(\left\langle E_a | E_b \right\rangle\)</span> equal?  We have not explicitly assumed <span class="math notranslate nohighlight">\(\left| E_a \right\rangle\)</span>
+and <span class="math notranslate nohighlight">\(\left| E_b \right\rangle\)</span> are orthogonal to each other, but in practice they clearly must be, or close enough
+that they might as well be.  In order to perform a measurement, the environment needs to change in a macroscopic way
+based on the thing being measured.  Otherwise, we could not use it to reliably determine what result was measured.
+Ultimately we are talking about the difference between the message “State A” appearing on a computer screen and “State B”
+appearing on the same screen.  These have negligible overlap with each other.  To very high accuracy,
+<span class="math notranslate nohighlight">\(\left\langle E_a | E_b \right\rangle = 0\)</span> and therefore <span class="math notranslate nohighlight">\(P(b, E_a) = 0\)</span>.</p>
+<p>Therefore, if you perform two measurements of the same quantity immediately after each other, they will always produce
+the same result.  The chance of getting different results is negligible.  This is what we mean by “the collapse of the
+wavefunction”.</p>
+<p>Notice that we did not assume anything about how the object being measured is affected by its interaction with the
+measuring device.  You might think you could prevent its wavefunction from collapsing by performing the measurement very
+carefully, so as to affect it as little as possible.  In fact, that would make no difference at all.  Instead, you would need to
+minimize the effect on the measuring device, but if the measuring device were not affected, that would mean you had not
+measured anything.</p>
+<p>This calculation is simple, easy to follow, and frustratingly unenlightening.  It leaves us just as mystified as ever
+about the mechanism responsible for wavefunction collapse.  That is because we used the Born rule, but we are still
+viewing the Born rule as nothing more than an empirical observation.  We have no idea why it happens to work.  If we
+want to understand the mechanism behind wavefunction collapse, we need a deeper theory that can explain the mechanism
+behind the Born rule.  I will discuss some possibilities for that deeper theory in later chapters.</p>
+<p>In discussions of this subject, you will sometimes come across the term “decoherence”.  This is a more general framework
+for the calculation presented above.  Initially, the system being measured is said to be in a “coherent” state.  It is a
+sum of basis functions that can interfere with each other, leading to quantum interference effects.  As it interacts
+with the environment, each basis function becomes correlated with the environment in a different way.
+<span class="math notranslate nohighlight">\(\left| A \right\rangle \otimes \left| E \right\rangle\)</span> turns into <span class="math notranslate nohighlight">\(\left| A \right\rangle \otimes \left| E_a \right\rangle\)</span>.
+Interference disappears, because each basis function is now associated with a macroscopically different state of the
+environment.  The state is no longer coherent.</p>
+<p>People sometimes claim that decoherence “explains” the collapse of the wavefunction.  That is incorrect.  Decoherence
+simply refers to the appearance of correlations between the system being measured and its environment as they interact.
+To get from those correlations to the wavefunction collapsing, we must invoke the Born rule.  A full explanation of
+collapse must therefore include an explanation of the Born rule.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="postulates.html"
+                        title="previous chapter">The Postulates of Quantum Mechanics</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="uncertainty.html"
+                        title="next chapter">The Uncertainty Principle</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/collapse.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="uncertainty.html" title="The Uncertainty Principle"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="postulates.html" title="The Postulates of Quantum Mechanics"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The Collapse of the Wavefunction</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Peter Eastman.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    </div>
+  </body>
+</html>

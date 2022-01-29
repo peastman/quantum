@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>The Uncertainty Principle &#8212; How To Be Less Confused About Quantum Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pyramid.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Fermions and Bosons" href="fermions.html" />
+    <link rel="prev" title="The Collapse of the Wavefunction" href="collapse.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="fermions.html" title="Fermions and Bosons"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="collapse.html" title="The Collapse of the Wavefunction"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The Uncertainty Principle</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="the-uncertainty-principle">
+<h1>The Uncertainty Principle<a class="headerlink" href="#the-uncertainty-principle" title="Permalink to this headline">¶</a></h1>
+<p>Heisenberg introduced his famous uncertainty principle in 1927. <a class="footnote-reference brackets" href="#f1" id="id1">1</a>  He based it on the following argument.</p>
+<p>Suppose you want to measure the position of a particle.  You might do it, for example, by shining light on it and
+detecting the reflected light.  This experiment, like all real world experiments, has limited precision.  It can only
+determine the particle’s position to an accuracy roughly equal to the wavelength of the light.</p>
+<p>The interaction between the particle and the light perturbs the motion of the particle, imparting some momentum to it.
+We do not know the exact change in momentum (that would require knowing precise details of the interaction that cannot
+be determined from the experiment), but we do know its magnitude must be on the order of the amount of momentum carried
+by the light.  That is inversely proportional to its wavelength.  Combining these two results, Heisenberg obtained the
+following very approximate inequality.</p>
+<div class="math notranslate nohighlight">
+\[\Delta x \Delta p \gtrsim 2 \pi \hbar\]</div>
+<p>where <span class="math notranslate nohighlight">\(\Delta x\)</span> is the uncertainty in our measurement of the position and <span class="math notranslate nohighlight">\(\Delta p\)</span> is the uncertainty in
+the momentum after completing the measurement.  We could reduce <span class="math notranslate nohighlight">\(\Delta x\)</span> by using light with a shorter
+wavelength, but then we would disturb the particle more and increase the uncertainty in its momentum.  Alternatively we
+could decrease <span class="math notranslate nohighlight">\(\Delta p\)</span> by using light with a longer wavelength, but then we would be able to measure the
+position less precisely.</p>
+<p>This is a purely mechanistic argument based on the practical details of performing measurements.  It also requires only
+classical physics.  Nothing about it is specific to quantum mechanics.</p>
+<p>The uncertainty principle was later reinterpreted as a statement about the quantum mechanical wavefunction.  If a
+particle’s position is precisely known, its wavefunction is a delta function in position space.  This corresponds to a
+plane wave in momentum space, meaning the momentum is completely unknown.  Likewise, if the momentum is precisely known,
+the wavefunction is a delta function in momentum space and a plane wave in position space.  If we want to know both
+position and momentum at the same time, we must choose a wavefunction that is localized but not precisely defined in
+both spaces.  The best we can do turns out to be a Gaussian distribution, whose Fourier transform is also a Gaussian.
+This leads to the inequality</p>
+<div class="math notranslate nohighlight">
+\[\Delta x \Delta p &gt; \hbar / 2\]</div>
+<p>where <span class="math notranslate nohighlight">\(\Delta x\)</span> and <span class="math notranslate nohighlight">\(\Delta p\)</span> are now more precisely defined as being the standard deviations of the
+position space and momentum space representations of the wavefunction.</p>
+<p>These two “uncertainty principles” seem entirely different from each other.  They are based on entirely different
+arguments and relate to different phenomena (the practical limitations of the measurement process versus the intrinsic
+properties of the wavefunction).  Yet they reach the same conclusion to within a small constant factor.  Is this just a
+remarkable coincidence, or does it reflect a deeper connection?</p>
+<p>If we view the wavefunction as a description of our knowledge about a system, the agreement is not surprising.  It is
+only natural we would have settled on a description that reflects the actual limits of what we can know.  On the other
+hand, if we interpret the wavefunction as a physical object rather than a mathematical abstraction invented by humans,
+the agreement is harder to explain.  How does a purely classical description of the measurement process produce the
+correct result for an inherently non-classical phenomenon?</p>
+<p>Although the two arguments lead to the same result, there is a critical difference between them.  Heisenberg’s
+mechanistic argument applies only to initial value problems, not to boundary value problems.  We can see this from a
+simple example.</p>
+<p>Consider a single particle moving in free space.  We first measure its position by reflecting light off it.  Then we
+wait for a time interval <span class="math notranslate nohighlight">\(t\)</span>, measure its position a second time, and find it has traveled a distance <span class="math notranslate nohighlight">\(x\)</span>.
+We can conclude that between the two measurements, it must have been moving with velocity <span class="math notranslate nohighlight">\(x/t\)</span>.</p>
+<p>Of course, there is uncertainty in all of these values.  The distance travelled is only measured to within some
+uncertainty <span class="math notranslate nohighlight">\(\Delta x\)</span> determined by the wavelength of the light.  The time interval between the measurements can
+only be controlled to some precision <span class="math notranslate nohighlight">\(\Delta t\)</span>.  The ratio of distance to time therefore is also uncertain.</p>
+<p>But we are not bound by the uncertainty principle.  We can make <span class="math notranslate nohighlight">\(\Delta x\)</span> arbitrarily small by using shorter
+wavelength light.  This does not increase the uncertainty in the velocity, because <span class="math notranslate nohighlight">\(x/t\)</span> is a direct measure of
+how quickly the particle was moving <em>between</em> the two measurements, after its momentum was disturbed by the first
+measurement and before it was disturbed by the second measurement.  We also can make the uncertainty in the velocity
+smaller by increasing <span class="math notranslate nohighlight">\(t\)</span>.  Simply by choosing the wavelength of light and the time interval between the
+measurements, we can simultaneously know both position and momentum to arbitrary precision at every intermediate time
+between the two measurements.</p>
+<p>Having determined the momentum through our two measurements, we might be tempted to extrapolate to earlier and later
+times.  At this point we run into the uncertainty principle again.  Each of the measurements alters the momentum in an
+unknown way.  We know the velocity before the first measurement is different from <span class="math notranslate nohighlight">\(x/t\)</span>, and after the second
+measurement it is different again, but we do not know the exact values.  The more precisely we perform the position
+measurements, the more uncertain the momentum becomes.</p>
+<p>If we instead view the wavefunction as a physical object rather than a mathematical abstraction, we are forced into a
+much more convoluted interpretation.  Although we measured the particle to have traveled a distance <span class="math notranslate nohighlight">\(x\)</span> in time
+<span class="math notranslate nohighlight">\(t\)</span>, we are not allowed to conclude it was traveling with velocity <span class="math notranslate nohighlight">\(x/t\)</span>!  In this view, the first position
+measurement leads to a wavefunction that is localized in position and therefore uncertain in momentum.  From that point,
+the uncertainty in position grows steadily.  By the time we perform the second measurement, the wavefunction has come to
+be widely distributed.  We measure the distance traveled to be <span class="math notranslate nohighlight">\(x\)</span>, but we could just as easily have gotten a
+different result.  Until we perform the second measurement and collapse the wavefunction, the particle’s position is
+highly uncertain.  The particular position it happens to collapse to implies nothing about its momentum prior to the
+measurement.</p>
+<p>In the same paper introducing the position-momentum uncertainty principle, Heisenberg also proposed a second uncertainty
+principle involving energy and time.  He based it on a mechanistic argument similar to the other one.  He considered a
+typical experiment used to measure energy and argued that the less time one spent performing the measurement, the less
+accurately one could determine the result.  A simple argument led to the approximate inequality</p>
+<div class="math notranslate nohighlight">
+\[\Delta E \Delta t \gtrsim 2 \pi \hbar\]</div>
+<p>where <span class="math notranslate nohighlight">\(\Delta E\)</span> is the uncertainty in the measured energy of a system and <span class="math notranslate nohighlight">\(\Delta t\)</span> is the amount of time
+taken to measure it.</p>
+<p>This result is fundamentally different from the position-momentum uncertainty principle.  “The time taken to perform a
+measurement” is not itself a measurable quantity.  It is not something you can calculate from a wavefunction.  It is a
+property of how you perform an experiment.</p>
+<p>Just as the position-momentum uncertainty principle was later reinterpreted, the energy-time principle was also
+reinterpreted, but this time the meaning changed enormously in the process.  Consider an eigenstate of the Hamiltonian.
+This is a state with precisely defined energy.  Because it is an eigenstate, all measurable quantities are independent
+of time.  They never change.</p>
+<p>Now consider a superposition of states with similar but slightly different energies.  This is not an eigenstate of the
+Hamiltonian, so measurable quantities do change with time.  The wider the spread in energies, the more quickly they
+change.  One can derive the inequality</p>
+<div class="math notranslate nohighlight">
+\[\Delta E \Delta t &gt; \hbar / 2\]</div>
+<p>where <span class="math notranslate nohighlight">\(\Delta E\)</span> now refers to the spread in energy of the states making up the superposition, and <span class="math notranslate nohighlight">\(\Delta t\)</span>
+describes the time scale over which any measurable quantity <em>other than energy</em> changes.</p>
+<p>Beware of a common misunderstanding about the energy-time uncertainty principle.  Many authors claim it means you can
+violate conservation of energy by an amount <span class="math notranslate nohighlight">\(\Delta E\)</span>, as long as you only do it for a short time
+<span class="math notranslate nohighlight">\(\Delta t\)</span>.  This claim is entirely wrong!  The expectation value of the Hamiltonian
+<span class="math notranslate nohighlight">\(\left\langle \Psi | H | \Psi \right\rangle\)</span> is conserved by the Schrödinger equation.  That is what conservation
+of energy means in quantum mechanics.  It is an exact law.  It cannot be violated by even the smallest amount, no matter
+how short a time you do it for!</p>
+<hr class="docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Heisenberg, W.  “Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.”  Zeitschrift für
+Physik 43: 172-198 (1927).</p>
+</dd>
+</dl>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="collapse.html"
+                        title="previous chapter">The Collapse of the Wavefunction</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="fermions.html"
+                        title="next chapter">Fermions and Bosons</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/uncertainty.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="fermions.html" title="Fermions and Bosons"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="collapse.html" title="The Collapse of the Wavefunction"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The Uncertainty Principle</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Peter Eastman.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    </div>
+  </body>
+</html>

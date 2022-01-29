@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Fermions and Bosons &#8212; How To Be Less Confused About Quantum Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pyramid.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Photons" href="photons.html" />
+    <link rel="prev" title="The Uncertainty Principle" href="uncertainty.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="photons.html" title="Photons"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="uncertainty.html" title="The Uncertainty Principle"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Fermions and Bosons</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="fermions-and-bosons">
+<h1>Fermions and Bosons<a class="headerlink" href="#fermions-and-bosons" title="Permalink to this headline">¶</a></h1>
+<p>All fundamental particles can be divided into two groups: fermions and bosons.  Fermions include the quarks and
+electrons that make up normal matter, as well as various more exotic particles.  Bosons are force carriers, such as the
+photons that transmit the electromagnetic force and the gluons that transmit the strong force.  (I feel slightly guilty
+for having just written that sentence.  You will see why in the next chapter.  But to avoid raising too many issues at
+once, I will stick with the conventional description for now.)  Here are the ways in which they are conventionally said
+to differ from each other.</p>
+<ul class="simple">
+<li><p>Fermions have half-integral spin, while bosons have integral spin.</p></li>
+<li><p>The wavefunction is antisymmetric under exchange of identical fermions, but symmetric under exchange of identical
+bosons.</p></li>
+<li><p>Fermions are bound by the Pauli exclusion principle, while bosons are not.</p></li>
+</ul>
+<p>The first of these is a straightforward statement about their physical properties, and is easy to demonstrate
+experimentally.  The other two relate as much to the mathematics we use to describe them as to the particles themselves.
+Their physical significance is far less clear than is normally claimed.</p>
+<p>Understand that when we talk about “exchanging” two identical particles, we are not referring to any physical process.
+We do not mean we are actually moving any particles around.  All we are exchanging is the completely arbitrary labels
+“particle 1” and “particle 2”.  If the particles are truly identical, no physical property of the system can possibly
+depend on our arbitrary choice of how to assign labels.  This includes, for example, the joint probability distribution.
+It must be symmetric under exchange of identical particles, whether fermions or bosons:
+<span class="math notranslate nohighlight">\(P(\mathbf{r}_1, \mathbf{r}_2) = P(\mathbf{r}_2, \mathbf{r}_1)\)</span>.</p>
+<p>The joint probability distribution directly corresponds to the magnitude of the wavefunction, so it too must be
+symmetric.  The phase is another matter.  It is not measurable and, for all we know, may not directly correspond to any
+physical property of the system.  If that is the case, it is possible it could change when we reverse the labels.</p>
+<p>Indeed, that turns out to be true.  One can rigorously show that the wavefunction must be antisymmetric under exchange
+of identical particles with half-integral spin (<span class="math notranslate nohighlight">\(\Psi(\mathbf{r}_1, \mathbf{r}_2) = -\Psi(\mathbf{r}_2, \mathbf{r}_1)\)</span>),
+but symmetric under exchange of identical particles with integral spin (<span class="math notranslate nohighlight">\(\Psi(\mathbf{r}_1, \mathbf{r}_2) = \Psi(\mathbf{r}_2, \mathbf{r}_1)\)</span>).
+This result is called the spin-statistics theorem.</p>
+<p>Does this have any physical significance?  At first you might think not.  The overall phase of the wavefunction is
+unmeasurable, so changing it cannot alter the result of any experiment.  In fact, this is a strong argument that the
+wavefunction cannot directly correspond to any real, physical object.  If it did, its value could not be affected by
+permuting arbitrary, physically meaningless labels.</p>
+<p>But there is one case where it does matter.  What happens if two identical fermions are at exactly the same position,
+so <span class="math notranslate nohighlight">\(\mathbf{r}_1 = \mathbf{r}_2\)</span>?  In that case, we obtain <span class="math notranslate nohighlight">\(\Psi(\mathbf{r}_1, \mathbf{r}_1) = -\Psi(\mathbf{r}_1, \mathbf{r}_1)\)</span>,
+which is only possible if <span class="math notranslate nohighlight">\(\Psi(\mathbf{r}_1, \mathbf{r}_1) = 0\)</span>.  The probability of observing two identical
+fermions at exactly the same place at the same time is 0.  This is the Pauli exclusion principle.</p>
+<p>At least, that is the conventional interpretation.  Let’s take a moment to consider it more carefully.  Electrons are
+charged, so they repel each other, and the strength of the repulsion goes to infinity as the distance between them goes
+to zero.  We don’t need a symmetry property of the wavefunction to tell us that two electrons will never be found at
+exactly the same location.  We already knew that.  Most other fermions are also charged, so the same applies to them.
+The exception is neutrinos, which are uncharged fermions that interact only through the weak force.  They are also
+believed to repel each other, but given the very short range of the weak force, this is impossible to measure with
+current technology.</p>
+<p>In a sense, the Pauli exclusion principle tells us even less than what we already knew.  It applies only when we exchange all
+relevant variables of the wavefunction, both positions and spins.  As far as it is concerned, there is no reason two
+electrons cannot exist at the same position as long as they have opposite spins.  In reality, however, that can never
+happen.  Electrons with opposite spin still repel each other.</p>
+<p>Many texts confidently declare the exclusion principle has nothing to do with interactions between the particles, and
+would apply even if they did not interact.  To “prove” this, they ask us to imagine two identical, non-interacting
+fermions.  Of course, to the best of our knowledge, there is no such thing.  All identical fermions found in the real
+world do interact.  Next they assume the wavefunction is antisymmetric under exchange of particles, and show how this
+leads the particles to avoid each other.  Of course, this is a contradiction, since if they avoid each other then by
+definition they do interact.</p>
+<p>In short, they present an imaginary experiment involving particles unlike any known to exist in the real world, then
+follow with two contradictory assumptions (that they do not interact, and that they do interact but in some unknown,
+poorly defined way).  This is presented as somehow being a rigorous proof.</p>
+<p>I must be careful here, because I do not want to give the impression that the Pauli exclusion principle “does not exist”,
+or is nothing more than Coulomb repulsion.  Dyson famously showed that atoms are much larger than would be expected
+based on a simple Coulomb interaction. <a class="footnote-reference brackets" href="#f1" id="id1">1</a>  Requiring the wavefunction to be antisymmetric leads to an effective
+“exchange interaction” at short ranges that keeps the electrons further apart.</p>
+<p>But the physical origin of this effect is still unknown.  What is the actual connection between the exclusion principle
+and interactions between identical particles?  That is hard to say.  It certainly is noteworthy that all known fermions
+repel each other.  Does this reflect some deep connection, or is it merely a coincidence?  The answer is not clear.</p>
+<p>Piling confusion upon confusion, many sources describe the exclusion principle in a different way.  They present it as
+saying two identical fermions can never have the same “quantum state” at the same time.  This is an entirely nonsensical
+description, and betrays a deep misunderstanding.  A system of interacting particles has only a single “quantum state”
+(that is, a single wavefunction) that describes all particles jointly, including any correlations between them.
+It cannot be decomposed into separate, single-particle states.  It is meaningless to ask for the “quantum state” of a
+single one of them, or to ask whether the states of two particles are the same or different.</p>
+<p>These sources often present the following calculation, which is meant to illustrate this version of the exclusion
+principle.  I must warn you before you read it that it is entirely wrong from beginning to end.  Still, it is important
+to be familiar with it, since you will likely come across it.</p>
+<p>They begin by considering two identical fermions, such as the two electrons in a helium atom, and assume the wavefunction
+can be decomposed into a product of single-particle functions.</p>
+<div class="math notranslate nohighlight">
+\[\Psi(\mathbf{r}_1, \mathbf{r}_2) = \Psi_1(\mathbf{r}_1) \Psi_2(\mathbf{r}_2)\]</div>
+<p>Next they point out this wavefunction is not antisymmetric, and therefore is illegal for fermions.  To fix this problem,
+they explicitly antisymmetrize it.</p>
+<div class="math notranslate nohighlight">
+\[\Psi(\mathbf{r}_1, \mathbf{r}_2) = \Psi_1(\mathbf{r}_1) \Psi_2(\mathbf{r}_2) - \Psi_1(\mathbf{r}_2) \Psi_2(\mathbf{r}_1)\]</div>
+<p>Next they ask us to suppose the two particles are in identical “quantum states”, that is, that
+<span class="math notranslate nohighlight">\(\Psi_1(\mathbf{r}) = \Psi_2(\mathbf{r})\)</span>.  In that case, the wavefunction reduces to</p>
+<div class="math notranslate nohighlight">
+\[\Psi(\mathbf{r}_1, \mathbf{r}_2) = \Psi_1(\mathbf{r}_1) \Psi_1(\mathbf{r}_2) - \Psi_1(\mathbf{r}_2) \Psi_1(\mathbf{r}_1) = 0\]</div>
+<p>The problem with this calculation is simply that the true wavefunction <em>does not have the form given above</em>.
+Interactions between the electrons in an atom cause them to be strongly correlated with each other.  The wavefunction
+cannot in any way be written as a product of single-particle wavefunctions, with or without antisymmetrization.
+Therefore it is meaningless to talk about a single electron within an atom having its own independent “quantum state”.</p>
+<p>This confusion dates back to Pauli’s original formulation of the exclusion principle, which stated that two electrons in
+an atom could not have the same “quantum numbers”. <a class="footnote-reference brackets" href="#f2" id="id2">2</a>  We cannot really fault him for this: he introduced it in 1925,
+before the idea of a wavefunction had yet been developed.  It is our own fault if we keep using obsolete descriptions
+long after they are replaced by more modern ones!</p>
+<p>Now let’s move on to another major source of confusion: the idea of “composite” fermions and bosons.  When multiple
+fermions are strongly bound to each other, we can approximate them for many purposes as a single composite particle.
+If the number of component particles is even, we say the composite particle is a boson.  If the number is odd, we say
+the composite particle is a fermion.</p>
+<p>Up to a point, this idea is not wrong.  If you combine an even number of particles that each have half-integral spin,
+the total spin will be integral.  If you combine an odd number, the total spin will be half-integral.  This is
+straightforward.</p>
+<p>Likewise, each time you exchange two identical fermions, the wavefunction changes sign.  If you perform an even number
+of exchanges, the result is to leave the wavefunction unchanged.  If you perform an odd number of exchanges, the
+wavefunction changes sign.  This is exactly as you would expect from the above definitions.</p>
+<p>But as you try to push the idea further, it quickly breaks down and starts to mislead you.  Consider a helium atom.  It
+contains 12 quarks (two protons and two neutrons) plus two electrons.  Therefore it is a composite boson.  Bosons are
+not bound by the exclusion principle and can exist at the same place at the same time.  Does this mean helium atoms can
+pass through each other and exist on top of each other?  Of course not!  If you try to push two helium atoms together,
+they strongly repel each other.</p>
+<p>As another example, consider two isotopes that differ by a single neutron, such as <sup>12</sup>C and
+<sup>13</sup>C.  One is a boson and the other is a fermion.  Therefore you would expect them to have radically
+different properties.  Instead, all of their chemical interactions are identical.  Aside from experiments specifically
+designed to measure mass or nuclear spin, they are nearly impossible to tell apart.</p>
+<p>Bose-Einstein condensates are often cited as an example of atoms behaving as composite bosons.  This again is correct
+up to a point.  If you cool a gas of identical atoms with integral spin to near absolute zero, they really do undergo
+a transition that matches the predictions for bosons.</p>
+<p>But it also provides a clear illustration of the limits of this description.  In their original papers on the subject,
+Bose and Einstein explicitly assumed the atoms did not interact. <a class="footnote-reference brackets" href="#f3" id="id3">3</a> <a class="footnote-reference brackets" href="#f4" id="id4">4</a>  The theory has since been extended to account
+for interactions, but only weak ones.  In practice, all experiments on Bose-Einstein condensates involve dilute gases in
+which the atoms are far apart and interactions are minimized.  If they are allowed to come too close together and
+interact too strongly, it is no longer valid to describe them as independent bosons.  But the ability to closely
+approach each other is supposed to be one of the core features that distinguishes bosons from fermions.  The description
+breaks down exactly when it is most important!  If you take it too literally, it will mislead you and produce confusion.</p>
+<hr class="docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Dyson, F. J.  “Ground-State Energy of a Finite System of Charged Particles.”  Journal of Mathematical Physics
+8(8): 1538-1545 (1967).</p>
+</dd>
+<dt class="label" id="f2"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>Pauli, W.  “Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der
+Spektren.”  Zeitschrift für Physik 31: 765-783 (1925).</p>
+</dd>
+<dt class="label" id="f3"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p>Bose, S. N.  “Plancks Gesetz und Lichtquantenhypothese.”  Zeitschrift für Physik 26: 178-181 (1924).</p>
+</dd>
+<dt class="label" id="f4"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p>Einstein, A.  “Quantentheorie des einatomigen idealen Gases.”  Sitzungsberichte der Preussischen Akademie der
+Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).</p>
+</dd>
+</dl>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="uncertainty.html"
+                        title="previous chapter">The Uncertainty Principle</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="photons.html"
+                        title="next chapter">Photons</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/fermions.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="photons.html" title="Photons"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="uncertainty.html" title="The Uncertainty Principle"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Fermions and Bosons</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Peter Eastman.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    </div>
+  </body>
+</html>

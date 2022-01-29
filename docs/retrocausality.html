@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Retrocausality &#8212; How To Be Less Confused About Quantum Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pyramid.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Stochastic Electrodynamics" href="sed.html" />
+    <link rel="prev" title="Entanglement, Hidden Variables, and Bell’s Inequality" href="entanglement.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="sed.html" title="Stochastic Electrodynamics"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="entanglement.html" title="Entanglement, Hidden Variables, and Bell’s Inequality"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Retrocausality</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="retrocausality">
+<h1>Retrocausality<a class="headerlink" href="#retrocausality" title="Permalink to this headline">¶</a></h1>
+<p>In the last chapter I discussed retrocausality at some length.  I want to say still more about it, because it is a very
+important subject and, for many people, an unfamiliar one.  Many textbooks on quantum mechanics never even mention it.
+My goal in this chapter to make up for that and give you a better understanding of it.</p>
+<p>Rather than worrying about the details of specific retrocausal theories, I am going to focus on general principles that
+apply to lots of them.  For purposes of this discussion, let me define a specific (but quite large) class of theories in
+which retrocausality is possible.</p>
+<p>First, I assume the theory is governed by a set of differential equations that must be satisfied at every point in space
+and time.  Newton’s second law, Maxwell’s equations, and Schrödinger’s equation are all examples of such equations.</p>
+<p>Second, I assume the theory is both deterministic and time reversible.  This means that in every physical process, there
+is a one-to-one correspondence between initial states and final states.  Every initial state leads to a unique final
+state.  Every final state can be traced back to a unique initial state.  Classical mechanics and classical
+electrodynamics both satisfy this requirement.  The Schrödinger formulation of quantum mechanics does not, because the
+Born rule is not deterministic.  However, there are other formulations that do fit into this category, such as the
+two-state vector formalism.</p>
+<p>In any theory of this sort, you can approach solving problems in a few different ways:</p>
+<ul class="simple">
+<li><p>As an initial value problem.  In classical mechanics, for example, if you know the position and momentum of every
+particle at one point in time, you can calculate their behavior at all later times.</p></li>
+<li><p>As a final value problem.  Given the position and momentum of every particle at one time, you can also trace backward
+to calculate their behavior at earlier times.</p></li>
+<li><p>As a boundary value problem.  Given partial but incomplete state information at two different times, you can solve for
+the set of trajectories (or perhaps the unique trajectory) satisfying both boundary conditions.</p></li>
+</ul>
+<p>Let’s consider a typical experiment of the sort used to test Bell’s inequality, and see how these considerations apply
+to it.  An emitter produces two electrons.  The physics of the emission process requires them to have opposite spin, but
+does not require their spins to be aligned with any particular axis.  Each electron travels to a different detector that
+measures its spin along a different axis.</p>
+<p>How would you go about computing the probability of the electrons having their spins aligned with a particular axis?
+What about the probability of each detector measuring a particular result?  You might want to pause for a moment and
+think about these questions before reading further.</p>
+<p>In one sense, this is a trick question.  Remember that we assumed a deterministic theory.  There are no probabilities in
+a deterministic theory.  The universe is what it is.  Each electron has whatever spin it has.  Each detector produces
+whatever result it produces.  There was never a chance of it producing any other result.  In a deterministic theory,
+each time you perform a measurement you learn something about the universe you live in.  It is one in which the first
+detector registers spin up and the second detector registers spin down.  It always was.  You just didn’t know it until
+now.</p>
+<p>But of course, we do talk about probabilities even when dealing with deterministic theories, so there must be another
+sense in which the question means something.  When we do this, we are invoking the formalism of statistical mechanics.
+We start by choosing a statistical ensemble, a set of microstates for the system that are all consistent with our
+macroscopic knowledge about it.  We then invoke the postulate of equal <em>a priori</em> probabilities, which assumes that
+every microstate in the ensemble is equally probable.  Here is what we really mean when we talk about the “probability”
+that something is true: “For what fraction of the members of some specified statistical ensemble is it true?”</p>
+<p>The answer to this question depends on your choice of ensemble.  Often, it is not obvious which is the “right” one to
+use.  The choice of ensemble encodes subtle assumptions, both about the details of the experimental procedure and about
+the physics of the system being studied.  Different ensembles can lead to very different conclusions.</p>
+<p>In our electron spin experiment, one obvious choice is to treat it as an initial value problem and choose the ensemble
+solely based on the emission process.  The emitter does not require the spins to have any particular axis, so we assume
+all axes are equally probable.  This choice of ensemble leads to Bell’s inequality.</p>
+<p>But there are other possible choices.  We also could treat it as a boundary value problem.  We know what result each
+detector produced, so we could restrict the ensemble to only those microstates consistent with those detections.  This
+choice does not lead to Bell’s inequality.  Instead, we conclude that the spins are more likely to be aligned with some
+directions than others, and that the distribution depends on our choice of axes for the detectors.  This is
+retrocausality.</p>
+<p>That is the essential thing to understand about retrocausality.  It has very little to do with the equations governing
+time evolution of the system.  It can appear in a huge class of theories, including very familiar ones like classical
+mechanics.  The essence of retrocausality is <em>what statistical ensemble you use to compute probabilities</em>.</p>
+<p>This raises an obvious question: which is the right ensemble to use?  Of course, there is a trivial answer: the right
+ensemble is the one that leads to correct predictions.  But that is not a satisfying answer.  It tells us nothing about
+the more fundamental question we were really asking, <em>why</em> does one choice lead to correct predictions?</p>
+<p>I cannot answer that question.  It relates to one of the great mysteries of physics: why do we live in the particular
+universe we do?  Of all the infinite possible solutions to the equations of motion, how did one solution get selected as
+our universe?  Any comprehensive theory needs to provide an answer to that question.  For example, maybe the universe
+minimizes a global action functional integrated over all of space and time.  But right now we do not know what theory is
+correct, so we cannot answer this question.</p>
+<p>Ultimately it must be answered based on experimental evidence.  Retrocausality leads to measurable effects, so in
+principle it could be testable.  For example, it allows Bell’s inequality to be violated.  But as we saw in the last
+chapter, other mechanisms can also lead to that result, such as non-locality, faster than light communication, and
+superdeterminism.  Bell’s inequality is too blunt an instrument to distinguish between them.  We will need to look
+further for conclusive evidence.</p>
+<p>There is one final important point I want to emphasize.  You must never expect to see retrocausal effects in macroscopic
+systems, only in microscopic ones.  Our local region of spacetime is dominated by an entropy gradient that creates an
+arrow of time.  It is rooted in the big bang, a point of extraordinarily low entropy.  As you move away from the big
+bang, entropy increases steadily.</p>
+<p>That is why we intuitively believe that time is asymmetric.  In the macroscopic world we are used to, processes only
+happen in one direction.  Windows are easy to break and very hard to repair.  Friction causes objects to slow down,
+never to speed up.  Our brains consume energy and use it to grow new neural connections that encode memories.  Each of
+these processes involves a change in entropy, and therefore can only happen in one direction.</p>
+<p>In any macroscopic system, the subtle effects of retrocausality would almost certainly be swamped by the much larger
+entropic effects.  It is unlikely that retrocausality could ever be detected in anything except very simple microscopic
+systems where entropy plays a much smaller role.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="entanglement.html"
+                        title="previous chapter">Entanglement, Hidden Variables, and Bell’s Inequality</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="sed.html"
+                        title="next chapter">Stochastic Electrodynamics</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/retrocausality.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="sed.html" title="Stochastic Electrodynamics"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="entanglement.html" title="Entanglement, Hidden Variables, and Bell’s Inequality"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">How To Be Less Confused About Quantum Mechanics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Retrocausality</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Peter Eastman.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    </div>
+  </body>
+</html>
