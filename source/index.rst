@@ -1,10 +1,11 @@
-.. How To Be Less Confused About Quantum Mechanics, created by
-   sphinx-quickstart on Sun Oct 10 12:47:10 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 How To Be Less Confused About Quantum Mechanics
 ===============================================
+
+Copyright © 2022 by Peter Eastman
+
+This work may be freely distributed under the terms of the 
+`Creative Commons Attribution-NoDerivatives 4.0 International License <http://creativecommons.org/licenses/by-nd/4.0>`_.
+The source can be found at https://github.com/peastman/statmech.
 
 .. toctree::
    :maxdepth: 2
@@ -23,11 +24,3 @@ How To Be Less Confused About Quantum Mechanics
    retrocausality.rst
    sed.rst
    conclusion.rst
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
