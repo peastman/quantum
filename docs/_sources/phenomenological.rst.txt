@@ -23,7 +23,7 @@ else.  This has led some people to claim there is something magical about the ac
 human observers are somehow fundamentally different from anything else in the universe.  See Schrödinger's poor abused
 cat.
 
-This is, of course, nonsense.  What it actually means is simply that quantum mechanics is a purely phenomenological
+There is nothing to justify this claim.  What it actually means is simply that quantum mechanics is a purely phenomenological
 theory.  It is a set of rules for predicting experiments and nothing more.  It offers no explanation for why those rules
 happen to work.  Their only justification is that they have been empirically found to produce accurate predictions.
 
