@@ -1,18 +1,16 @@
-
 <!DOCTYPE html>
 
-<html>
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Fermions and Bosons &#8212; How To Be Less Confused About Quantum Mechanics</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/pyramid.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4848ba22" />
+    <link rel="stylesheet" type="text/css" href="_static/pyramid.css?v=424f8d56" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -26,7 +24,7 @@
 
   </head><body>
 
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -49,7 +47,7 @@
           <div class="body" role="main">
             
   <section id="fermions-and-bosons">
-<h1>Fermions and Bosons<a class="headerlink" href="#fermions-and-bosons" title="Permalink to this headline">¶</a></h1>
+<h1>Fermions and Bosons<a class="headerlink" href="#fermions-and-bosons" title="Link to this heading">¶</a></h1>
 <p>All fundamental particles can be divided into two groups: fermions and bosons.  Fermions include the quarks and
 electrons that make up normal matter, as well as various more exotic particles.  Bosons are force carriers, such as the
 photons that transmit the electromagnetic force and the gluons that transmit the strong force.  (I feel slightly guilty
@@ -108,7 +106,7 @@ follow with two contradictory assumptions (that they do not interact, and that t
 poorly defined way).  This is presented as somehow being a rigorous proof.</p>
 <p>I must be careful here, because I do not want to give the impression that the Pauli exclusion principle “does not exist”,
 or is nothing more than Coulomb repulsion.  Dyson famously showed that atoms are much larger than would be expected
-based on a simple Coulomb interaction. <a class="footnote-reference brackets" href="#f1" id="id1">1</a>  Requiring the wavefunction to be antisymmetric leads to an effective
+based on a simple Coulomb interaction. <a class="footnote-reference brackets" href="#f1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>  Requiring the wavefunction to be antisymmetric leads to an effective
 “exchange interaction” at short ranges that keeps the electrons further apart.</p>
 <p>But the physical origin of this effect is still unknown.  What is the actual connection between the exclusion principle
 and interactions between identical particles?  That is hard to say.  It certainly is noteworthy that all known fermions
@@ -139,7 +137,7 @@ Interactions between the electrons in an atom cause them to be strongly correlat
 cannot in any way be written as a product of single-particle wavefunctions, with or without antisymmetrization.
 Therefore it is meaningless to talk about a single electron within an atom having its own independent “quantum state”.</p>
 <p>This confusion dates back to Pauli’s original formulation of the exclusion principle, which stated that two electrons in
-an atom could not have the same “quantum numbers”. <a class="footnote-reference brackets" href="#f2" id="id2">2</a>  We cannot really fault him for this: he introduced it in 1925,
+an atom could not have the same “quantum numbers”. <a class="footnote-reference brackets" href="#f2" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>  We cannot really fault him for this: he introduced it in 1925,
 before the idea of a wavefunction had yet been developed.  It is our own fault if we keep using obsolete descriptions
 long after they are replaced by more modern ones!</p>
 <p>Now let’s move on to another major source of confusion: the idea of “composite” fermions and bosons.  When multiple
@@ -165,30 +163,34 @@ designed to measure mass or nuclear spin, they are nearly impossible to tell apa
 up to a point.  If you cool a gas of identical atoms with integral spin to near absolute zero, they really do undergo
 a transition that matches the predictions for bosons.</p>
 <p>But it also provides a clear illustration of the limits of this description.  In their original papers on the subject,
-Bose and Einstein explicitly assumed the atoms did not interact. <a class="footnote-reference brackets" href="#f3" id="id3">3</a> <a class="footnote-reference brackets" href="#f4" id="id4">4</a>  The theory has since been extended to account
+Bose and Einstein explicitly assumed the atoms did not interact. <a class="footnote-reference brackets" href="#f3" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#f4" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a>  The theory has since been extended to account
 for interactions, but only weak ones.  In practice, all experiments on Bose-Einstein condensates involve dilute gases in
 which the atoms are far apart and interactions are minimized.  If they are allowed to come too close together and
 interact too strongly, it is no longer valid to describe them as independent bosons.  But the ability to closely
 approach each other is supposed to be one of the core features that distinguishes bosons from fermions.  The description
 breaks down exactly when it is most important!  If you take it too literally, it will mislead you and produce confusion.</p>
 <hr class="docutils" />
-<dl class="footnote brackets">
-<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p>Dyson, F. J.  “Ground-State Energy of a Finite System of Charged Particles.”  Journal of Mathematical Physics
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="f1" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Dyson, F. J.  “Ground-State Energy of a Finite System of Charged Particles.”  Journal of Mathematical Physics
 8(8): 1538-1545 (1967).</p>
-</dd>
-<dt class="label" id="f2"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
-<dd><p>Pauli, W.  “Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der
+</aside>
+<aside class="footnote brackets" id="f2" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>Pauli, W.  “Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der
 Spektren.”  Zeitschrift für Physik 31: 765-783 (1925).</p>
-</dd>
-<dt class="label" id="f3"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
-<dd><p>Bose, S. N.  “Plancks Gesetz und Lichtquantenhypothese.”  Zeitschrift für Physik 26: 178-181 (1924).</p>
-</dd>
-<dt class="label" id="f4"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
-<dd><p>Einstein, A.  “Quantentheorie des einatomigen idealen Gases.”  Sitzungsberichte der Preussischen Akademie der
+</aside>
+<aside class="footnote brackets" id="f3" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+<p>Bose, S. N.  “Plancks Gesetz und Lichtquantenhypothese.”  Zeitschrift für Physik 26: 178-181 (1924).</p>
+</aside>
+<aside class="footnote brackets" id="f4" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">4</a><span class="fn-bracket">]</span></span>
+<p>Einstein, A.  “Quantentheorie des einatomigen idealen Gases.”  Sitzungsberichte der Preussischen Akademie der
 Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).</p>
-</dd>
-</dl>
+</aside>
+</aside>
 </section>
 
 
@@ -196,14 +198,18 @@ Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).</p>
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="uncertainty.html"
-                        title="previous chapter">The Uncertainty Principle</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="photons.html"
-                        title="next chapter">Photons</a></p>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="uncertainty.html"
+                          title="previous chapter">The Uncertainty Principle</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="photons.html"
+                          title="next chapter">Photons</a></p>
+  </div>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -211,7 +217,7 @@ Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).</p>
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
-<div id="searchbox" style="display: none" role="search">
+<search id="searchbox" style="display: none" role="search">
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
@@ -219,13 +225,13 @@ Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).</p>
       <input type="submit" value="Go" />
     </form>
     </div>
-</div>
-<script>$('#searchbox').show(0);</script>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -242,8 +248,8 @@ Wissenschaften: Physikalisch-mathematische Klasse 1: 3-14 (1925).</p>
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2022, Peter Eastman.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    &#169; Copyright 2022, Peter Eastman.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
     </div>
   </body>
 </html>
